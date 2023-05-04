@@ -15,14 +15,12 @@ function NavScroll() {
 
           <Nav
             className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '150px' }}
             navbarScroll
           >
-            <NavDropdown title="Bands" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Band1</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Band2</NavDropdown.Item>
-              <NavDropdown.Item href="#action5">Band3</NavDropdown.Item>
-            </NavDropdown>
+          <Nav.Link href=''>Grils Group</Nav.Link>
+          <Nav.Link href=''>Boys Band</Nav.Link>
+          <Nav.Link href=''>Soloists</Nav.Link>
           </Nav>
 
           <Form className="d-flex">
