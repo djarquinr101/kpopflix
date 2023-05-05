@@ -1,0 +1,324 @@
+[
+    {
+    "name": "BTS",
+    "info": "BTS, also known as Bangtan Sonyeondan, is a seven-member boy group known for their meaningful lyrics and powerful performances.",
+    "profile": "https://i.scdn.co/image/ab676161000051745704a64f34fe29ff73ab56bb",
+    "banner": "https://reaction.life/wp-content/uploads/elementor/thumbs/shutterstock_1309804855-1-pqllc35o1l64tbhh64zfgirh5bbl4c5bjbg007kyhk.jpg",
+    "type": "Boy Band"
+    },
+    {
+    "name": "Blackpink",
+    "info": "BLACKPINK is a four-member girl group known for their fierce image and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab67616100005174c9690bc711d04b3d4fd4b87c",
+    "banner": "https://images.wallpapersden.com/image/download/blackpink-love-2021_bGxrbGqUmZqaraWkpJRnZWltrWZmamc.jpg",
+    "type": "Girl Group"
+    },
+    {
+    "name": "TWICE",
+    "info": "TWICE is a nine-member girl group known for their bubbly and cheerful image and catchy dance tracks.",
+    "profile": "https://i.scdn.co/image/ab676161000051748944c8aec8db82f35980b191",
+    "banner": "https://pbs.twimg.com/media/C5EzSmnVcAAPsiH.jpg:large",
+    "type": "Girl Group"
+    },
+    {
+    "name": "EXO",
+    "info": "EXO is a nine-member boy group known for their impressive vocals and impressive choreography.",
+    "profile": "https://i.scdn.co/image/ab67616100005174465b1b62cf6eca8f851aaabc",
+    "banner": "https://wallpapercave.com/wp/wp4709975.jpg",
+    "type": "Boy Band"
+    },
+    {
+    "name": "Red Velvet",
+    "info": "Red Velvet is a five-member girl group known for their versatile music style and concept. They are known for incorporating different genres in their music.",
+    "profile": "https://i.scdn.co/image/ab676161000051745bf330a57b9dcffd8f7b2c14",
+    "banner": "https://0.soompi.io/wp-content/uploads/2019/12/20190623/Red-Velvet-2.jpeg",
+    "type": "Girl Group"
+    },
+    {
+    "name": "NCT 127",
+    "info": "NCT is a group that consists of multiple sub-units and members from all over the world. They are known for their experimental music and unique concepts.",
+    "profile": "https://i.scdn.co/image/ab676161000051747d874b307cb092e68db73207",
+    "banner": "https://www.hellokpop.com/wp-content/uploads/2020/01/IMG_20200127_001109.jpg",
+    "type": "Boy Band"
+    },
+    {
+    "name": "Seventeen",
+    "info": "Seventeen is a thirteen-member boy group known for their synchronized choreography and self-produced music.",
+    "profile": "https://i.scdn.co/image/ab6761610000517495f5142b421466cf22028f6f",
+    "banner": "https://s1.ticketm.net/dam/a/123/2ffb250b-4696-4abd-a2c2-f61b0c600123_1238781_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "type": "Boy Band"
+    },
+    {
+    "name": "GOT7",
+    "info": "GOT7 is a seven-member boy group known for their energetic performances and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab67616100005174d90aa536055fe9806b3960e6",
+    "banner": "https://th.bing.com/th/id/R.94fe20eb661c174eb4f34e10c99cbe54?rik=DfILiNzGZiASRw&pid=ImgRaw&r=0",
+    "type": "Boy Band"
+    },
+    {
+    "name": "Mamamoo",
+    "info": "Mamamoo is a four-member girl group known for their powerful vocals and retro-inspired music.",
+    "profile": "https://i.scdn.co/image/ab67616100005174e12972169702affd7a4c48ec",
+    "banner": "https://0.soompi.io/wp-content/uploads/2019/11/07071619/mamamoo3.jpeg",
+    "type": "Girl Group"
+    },
+    {
+    "name": "ATEEZ",
+    "info": "ATEEZ is an eight-member boy group known for their intense performances and unique storytelling in their music videos.",
+    "profile": "https://i.scdn.co/image/ab676161000051745d87e2a10ba3b2f8bb2c5270",
+    "banner": "https://www.allkpop.com/upload/2021/08/content/221152/web_data/allkpop_1629647978_ateez.jpg",
+    "type": "Boy Band"
+    },
+    {
+    "name": "TXT",
+    "info": "TXT, also known as Tomorrow X Together, is a five-member boy group known for their youthful and dreamy image and music.",
+    "profile": "https://i.scdn.co/image/ab6761610000517463329d77582c519154674fd7",
+    "banner": "https://cdn.filestackcontent.com/crop=d:[0,460,4096,2048]/pjpg=q:90/compress/Ztdo8BWSDiGuDcJ6us5w",
+    "type": "Boy Band"
+    },
+    {
+    "name": "ITZY",
+    "info": "ITZY is a five-member girl group known for their girl power image and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab676161000051748ec4207332def07fec21874d",
+    "banner": "https://k-gen.fr/wp-content/uploads/2020/02/itzy-itz-me-wannabe-scaled.jpg",
+    "type": "Girl Group"
+    },
+    {
+    "name": "Monsta X",
+    "info": "Monsta X is a six-member boy group known for their powerful performances and intense music.",
+    "profile": "https://i.scdn.co/image/ab676161000051743806dc272074141b5f4ae00d",
+    "banner": "https://image.kpopmap.com/2020/11/EZlRThpUEAAyOv6.jpg-large.jpeg",
+    "type": "Boy Band"
+    },
+    {
+    "name": "(G)I-DLE",
+    "info": "(G)I-DLE is a six-member girl group known for their unique sound and concept.",
+    "profile": "https://i.scdn.co/image/ab676161000051748abd5f97fc52561939ebbc89",
+    "banner": "https://image.kpopmap.com/2020/02/gidle-friendship-2.jpg",
+    "type": "Girl Group"
+    },
+    {
+    "name": "Girls' Generation",
+    "info": "Girls' Generation is a veteran girl group that has been active since 2007. They are known for their catchy songs and glamorous image.",
+    "profile": "https://i.scdn.co/image/ab67616100005174385df356841aaec34a0914aa",
+    "banner": "https://th.bing.com/th/id/R.bca4a46fc420545e2637941ce4169169?rik=e%2bC3P%2bNCEj1owA&riu=http%3a%2f%2fyeinjee.com%2fwp-content%2fuploads%2f2010%2f08%2fgirls-generation-japan-genie.jpg&ehk=%2fOBn47IJeJX%2f0RwMHRBQHJ19ubQotwtIeVukSq2Z88Q%3d&risl=&pid=ImgRaw&r=0",
+    "type": "Girl Group"
+    },
+    {
+    "name": "EXID",
+    "info": "EXID is a five-member girl group known for their sultry image and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab67616100005174271110d977700b69d9548993",
+    "banner": "https://th.bing.com/th/id/R.147bdb217fb1c2cb22cfe3a6e965b60a?rik=sVNqWBG%2bHsS5gA&riu=http%3a%2f%2fwww.kpopmusic.com%2fwp-content%2fuploads%2f2015%2f10%2fEXID-kpop_67.jpg&ehk=iSpT09B89drnycW6HJ16Iim%2fdmEJX4K7rJhL0o58Chg%3d&risl=&pid=ImgRaw&r=0",
+    "type": "Girl Group"
+    },
+    {
+    "name": "SHINee",
+    "info": "SHINee is a veteran boy group that has been active since 2008. They are known for their impressive vocals and dance skills.",
+    "profile": "https://i.scdn.co/image/ab676161000051747ece2134de8809efcfdc9be7",
+    "banner": "https://th.bing.com/th/id/R.9373a83c9a91737af1b00e7649296ae2?rik=x%2fXuifYcKH7Kug&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f23300000%2fSHINee-shinee-23313079-2302-1452.jpg&ehk=CDM%2bX797wGAvuV%2fBx0kVZhwasKmNkp%2buJgOZAx59Q7o%3d&risl=&pid=ImgRaw&r=0",
+    "type": "Boy Band"
+    },
+    {
+    "name": "Big Bang",
+    "info": "Big Bang is a veteran boy group that has been active since 2006. They are known for their unique sound and powerful performances.",
+    "profile": "https://i.scdn.co/image/ab67616100005174597a4257d0022e2ac837fa7d",
+    "banner": "https://dbkpop.com/wp-content/uploads/2019/07/bigbang.jpg",
+    "type": "Boy Band"
+    },
+    {
+    "name": "CLC",
+    "info": "CLC is a seven-member girl group known for their diverse music style and powerful performances.",
+    "profile": "https://i.scdn.co/image/ab67616100005174123f438003920eced08e348d",
+    "banner": "https://assets.teenvogue.com/photos/5f99836563c1bc6ab2db17c5/16:9/w_2560%2Cc_limit/lede.jpg",
+    "type": "Girl Group"
+    },
+    {
+    "name": "GFRIEND",
+    "info": "GFRIEND is a six-member girl group known for their innocent and pure image and synchronized dance performances.",
+    "profile": "https://i.scdn.co/image/ab67616100005174d0701912e6fccf8427bc7361",
+    "banner": "https://th.bing.com/th/id/R.1c2df32db51f1caf8e82aebc92fa398e?rik=%2fO27DvKzcc%2bt1Q&pid=ImgRaw&r=0",
+    "type": "Girl Group"
+    },
+    {
+    "name": "Oh My Girl",
+    "info": "Oh My Girl is a seven-member girl group known for their dreamy and ethereal music and visuals.",
+    "profile": "https://i.scdn.co/image/ab676161000051749954a1ab45b2404a7bff2a45",
+    "banner": "https://k-gen.fr/wp-content/uploads/2020/10/OH-MY-GIRL-Etoile-Nonstop-photo-teaser-4-scaled.jpg",
+    "type": "Girl Group"
+    },
+    {
+    "name": "AOA",
+    "info": "AOA is a six-member girl group known for their sexy and confident image and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab67616d00001e0236adcea4e93245f1fec547df",
+    "banner": "https://th.bing.com/th/id/R.204d1a8fdb165589424583419504bc43?rik=gOSpKq4peA4adA&riu=http%3a%2f%2fdottolife.com%2fksi-content%2fuploads%2f2016%2f01%2faoa.jpg&ehk=Mb9lgzcfiDpHV1T%2fzCCrQPYiovFTzNelA3d7QEifKI4%3d&risl=&pid=ImgRaw&r=0",
+    "type": "Girl Group"
+    },
+    {
+    "name": "SuperM",
+    "info": "SuperM is a group that consists of members from different popular K-pop groups such as EXO, SHINee, and NCT. They are known for their powerful performances and energetic music.",
+    "profile": "https://i.scdn.co/image/ab676161000051748d69367047a24d20b0323ff7",
+    "banner": "https://th.bing.com/th/id/R.5089dd2ae170335abf711a45ca0a5081?rik=HfY2QbrhlwlpkA&pid=ImgRaw&r=0",
+    "type": "Boy Band"
+    },
+    {
+    "name": "Astro",
+    "info": "ASTRO is a six-member boy group known for their energetic and playful image and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab676161000051746034058cfde0084f922bb284",
+    "banner": "https://vignette1.wikia.nocookie.net/kpop/images/f/f7/ASTRO_Dream_Part.01_group_promo_photo.png/revision/latest?cb=20170529062757",
+    "type": "Boy Band"
+    },
+    {
+    "name": "Everglow",
+    "info": "Everglow is a six-member girl group known for their powerful performances and unique sound.",
+    "profile": "https://i.scdn.co/image/ab6761610000517463cc88daba8709af04c3d6ed",
+    "banner": "https://www.nme.com/wp-content/uploads/2021/05/everglow-yuehua-entertainment-050421.jpg",
+    "type": "Girl Group"
+    },
+    {
+    "name": "IZONE",
+    "info": "IZONE is a twelve-member girl group formed through a survival show. They are known for their cute and bubbly image and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab67616100005174a6b0d348c125a072e5284b3e",
+    "banner": "https://pbs.twimg.com/media/Dni8buZVAAAZwwG.jpg:large",
+    "type": "Girl Group"
+    },
+    {
+    "name": "LOONA",
+    "info": "LOONA is a twelve-member girl group known for their unique and creative concept, where each member had their own solo debut before debuting as a group.",
+    "profile": "https://i.scdn.co/image/ab6761610000517480584436e5726afb70cee7f8",
+    "banner": "https://th.bing.com/th/id/R.6c6e36e146cc63dd4f2fe874f9fe854b?rik=uqcJZX5pzRHzgg&pid=ImgRaw&r=0",
+    "type": "Girl Group"
+    },
+    {
+    "name": "Pentagon",
+    "info": "Pentagon is a nine-member boy group known for their powerful performances and self-produced music.",
+    "profile": "https://i.scdn.co/image/ab676161000051747fd277fc83d7670dadb45790",
+    "banner": "https://images2.imgbox.com/b6/f4/fIwI7JGl_o.jpeg",
+    "type": "Boy Band"
+    },
+    {
+    "name": "Weki Meki",
+    "info": "Weki Meki is an eight-member girl group known for their energetic performances and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab67616100005174254daf7026f593ccd20812e5",
+    "banner": "https://www.allkpop.com/upload/2018/09/af_org/12221126/weki-meki.jpg",
+    "type": "Girl Group"
+    },
+    {
+    "name": "SF9",
+    "info": "SF9 is a nine-member boy group known for their powerful performances and charismatic image.",
+    "profile": "https://i.scdn.co/image/ab67616100005174060cc13fe1a58394ee8ef701",
+    "banner": "https://vignette.wikia.nocookie.net/sf9/images/8/8f/SF9_-_RPM_Japanese_promo.jpg/revision/latest/scale-to-width-down/2000?cb=20191002014251",
+    "type": "Boy Band"
+    },
+    {
+    "name": "Dreamcatcher",
+    "info": "Dreamcatcher is a seven-member girl group known for their rock-inspired music and dark and mysterious image.",
+    "profile": "https://i.scdn.co/image/ab676161000051743d473b3dcc380e2aec2ab329",
+    "banner": "https://dbkpop.com/wp-content/uploads/2019/02/dreamcatcher_the_end_of_nightmare_all.jpg",
+    "type": "Soloist"
+    },
+    {
+    "name": "IU",
+    "info": "IU is a singer-songwriter and actress known for her sweet and emotional voice and versatile music style.",
+    "profile": "https://i.scdn.co/image/ab67616100005174006ff3c0136a71bfb9928d34",
+    "banner": "https://1.bp.blogspot.com/-McYtIa_eduA/VwXQZoP4hAI/AAAAAAAAJYM/I8tg1cBGXDE6L5KQIDJwBnzcBbebJpmsA/s1600/iu.jpg",
+    "type": "Soloist"
+    },
+    {
+    "name": "Taeyeon",
+    "info": "Taeyeon is a member of the girl group Girls' Generation and a soloist known for her powerful vocals and emotional ballads.",
+    "profile": "https://i.scdn.co/image/ab67616100005174b29975f8b42bcba1eae62577",
+    "banner": "https://th.bing.com/th/id/R.1f74330f8b329183c2df8af47ddbc28e?rik=KPbVDl9s7k00Gw&pid=ImgRaw&r=0",
+    "type": "Soloist"
+    },
+    {
+    "name": "Chungha",
+    "info": "Chungha is a former member of the girl group IOI and a soloist known for her charismatic performances and dance skills.",
+    "profile": "https://i.scdn.co/image/ab6761610000517493c6f21062da1ef012275ff6",
+    "banner": "https://th.bing.com/th/id/R.2fa99368e1c4ea712e44cb5b5cad0ff2?rik=fktPdPf%2bNEoFLA&pid=ImgRaw&r=0",
+    "type": "Soloist"
+    },
+    {
+    "name": "Baekhyun",
+    "info": "Baekhyun is a member of the boy group EXO and a soloist known for his smooth vocals and romantic ballads.",
+    "profile": "https://i.scdn.co/image/ab676161000051741e2e0f17d257a40be0782f35",
+    "banner": "https://th.bing.com/th/id/R.7c578534028adad4b4d8ac52537d3bf8?rik=EctIdtlR7trrnA&pid=ImgRaw&r=0",
+    "type": "Soloist"
+    },
+    {
+    "name": "Sunmi",
+    "info": "Sunmi is a former member of the girl group Wonder Girls and a soloist known for her confident and sexy image and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab676161000051744a29246fa242d0b9f8de3b31",
+    "banner": "https://th.bing.com/th/id/R.ca541e8b9962e470e7d35449d126b707?rik=XaOyBE1LD2kCBw&pid=ImgRaw&r=0",
+    "type": "Soloist"
+    },
+    {
+    "name": "Kang Daniel",
+    "info": "Kang Daniel is a former member of the boy group Wanna One and a soloist known for his powerful performances and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab67616100005174817bd4d5071a23f13c87f225",
+    "banner": "https://th.bing.com/th/id/R.c2ee3f060167ca0c65b2b76322294fe6?rik=tv7DwUIrf2eS%2bg&pid=ImgRaw&r=0",
+    "type": "Soloist"
+    },
+    {
+    "name": "Hwasa",
+    "info": "Hwasa is a member of the girl group Mamamoo and a soloist known for her powerful vocals and unique image.",
+    "profile": "https://i.scdn.co/image/ab676161000051746de000137b41e45cc33a3566",
+    "banner": "https://wallpapercave.com/wp/wp4437964.jpg",
+    "type": "Soloist"
+    },
+    {
+    "name": "Heize",
+    "info": "Heize is a singer-songwriter and rapper known for her soulful and emotional music.",
+    "profile": "https://i.scdn.co/image/ab67616100005174b55c3a580a05d6a61bd678ca",
+    "banner": "https://k-gen.fr/wp-content/uploads/2019/03/heize-shes-fine.jpg",
+    "type": "Soloist"
+    },
+    {
+    "name": "Hyuna",
+    "info": "Hyuna is a former member of the girl group 4Minute and a soloist known for her sexy and bold image and catchy songs.",
+    "profile": "https://i.scdn.co/image/ab67616100005174d7f4b9b294a630d27f0c4d81",
+    "banner": "https://dbkpop.com/wp-content/uploads/2020/08/Hyuna_Good_Girl_Teaser_5.jpg",
+    "type": "Soloist"
+    },
+    {
+    "name": "Zico",
+    "info": "Zico is a rapper, producer, and singer known for his unique and experimental music style.",
+    "profile": "https://i.scdn.co/image/ab67616100005174511f570580c79107b2fa70b9",
+    "banner": "https://lh3.googleusercontent.com/ESnyxwjiVLeypD4S4PtSpuxnkNzf12N58jYpDuFkS_8mYefb9zofjE05AKP3Nn5LhaWNI3op-3lFbTRjWsFLleDHxo32Zp75-w=s0",
+    "type": "Soloist"
+    },
+    {
+    "name": "Jay Park",
+    "info": "Jay Park is a rapper, singer, and CEO of the label AOMG known for his confident and charismatic image and unique music style.",
+    "profile": "https://i.scdn.co/image/ab676161000051745ef6675e036acc2bb446d5ce",
+    "banner": "https://k-popped.com/kpopped2012/wp-content/uploads/2013/11/JAY-PARK.jpg?0ec627&0ec627",
+    "type": "Soloist"
+    },
+    {
+    "name": "G-Dragon",
+    "info": "G-Dragon is a rapper, singer, and producer known for his innovative and experimental music style and fashion sense.",
+    "profile": "https://i.scdn.co/image/ab676161000051745923c0ca32a3cf3a81b34728",
+    "banner": "https://th.bing.com/th/id/R.fc10ae955af03d03a3790db9e9c6202d?rik=Cmbbx8Rsy0BqEA&pid=ImgRaw&r=0",
+    "type": "Soloist"
+    },
+    {
+    "name": "Jessi",
+    "info": "Jessi is a rapper and singer known for her powerful and confident image and bold music.",
+    "profile": "https://i.scdn.co/image/ab67616100005174be76c66001c8d4973f992208",
+    "banner": "https://kpopping.com/documents/f1/2/3276/220413-JESSI-ZOOM-Showcase-documents-1(1).jpeg?v=a7434",
+    "type": "Soloist"
+    },
+    {
+    "name": "Davichi",
+    "info": "Davichi is a female duo consisting of Lee Hae-ri and Kang Min-kyung. They are known for their emotional ballads and powerful vocals.",
+    "profile": "https://i.scdn.co/image/ab6761610000517460815ff18cb9f9f0fe12aa97",
+    "banner": "https://k-gen.fr/wp-content/uploads/2018/07/DAVICHI-COMEBACK.jpg",
+    "type": "Duo"
+    },
+    {
+    "name": "AKMU",
+    "info": "AKMU (short for Akdong Musician) is a sibling duo consisting of Lee Chan-hyuk and Lee Su-hyun. They are known for their playful and catchy songs and unique music style.",
+    "profile": "https://i.scdn.co/image/ab6761610000517474700cf88c04af5201df7298",
+    "banner": "https://th.bing.com/th/id/R.bf9af262bc38f36e327d0505a95105b8?rik=8Kb1XoALSbVURA&pid=ImgRaw&r=0",
+    "type": "Duo"
+    }
+    ]
