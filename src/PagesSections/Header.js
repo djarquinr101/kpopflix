@@ -1,4 +1,4 @@
-import { Card,Carousel, Button, Image } from 'react-bootstrap';
+import { Carousel, Button, Image } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const StyledContainer = styled.div`
@@ -19,57 +19,31 @@ const StyledItem = styled(Carousel.Item)`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%
-`
+  height: 100%`
 
 const StyledImg = styled(Image)`
   max-width: 100%;
-  max-height: 100%;
+  max-height: 700px;
   height: auto;
-  object-fit: contain;
-  `
+  object-fit: contain;`
 
-function CarouselFade() {
+function CarouselFade({banners}) {
   return (
     <StyledContainer>
     <StyledCarousel fade>
-      <StyledItem>
+     { banners.map((banner, index) => (
+    <StyledItem key = {index}>
         <StyledImg 
-          src="https://lh3.googleusercontent.com/EMI8vfiR_WWe4rywQxj-BW9yqwDr4P1c5a8X7AcfaWoafwf5SWzI8oQ5Qf_QE5OotO4XJST1cg3ifpUW2dhUdKocxV-KbFDs1Xyr1c5F6TdNixo=w1200-h600-pp-rj-s365"
-          alt="Blackpink"
+          src= {banner.banner}
+          alt= {banner.name}
         />
       
-        <Carousel.Caption bg={'dark'}>
-          <h2>First slide label</h2>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <Carousel.Caption>
+          <h1>{banner.name}</h1>
           <Button variant={"light"}>Listen Now</Button>
         </Carousel.Caption>
       </StyledItem>
-
-      <StyledItem>
-        <StyledImg
-          src="https://cdn.shortpixel.ai/spai/q_lossy+w_844+h_515+to_auto+ret_img/https://koreanquiz.com/wp-content/uploads/2022/08/TWICE-Members-Quiz.jpg"
-          alt="Second slide"
-        />
-        <Carousel.Caption bg={'dark'}>
-          <h2>First slide label</h2>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <Button variant={"light"}>Listen Now</Button>
-        </Carousel.Caption>
-      </StyledItem>
-      
-      <StyledItem>
-        <StyledImg
-          src="https://stylecaster.com/wp-content/uploads/2020/08/itzy.jpg"
-          alt="Third slide"
-        />
-         <Carousel.Caption bg={'dark'}>
-          <h2>First slide label</h2>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <Button variant={"light"}>Listen Now</Button>
-        </Carousel.Caption>
-        
-      </StyledItem>
+     ))}
     </StyledCarousel>
     </StyledContainer>
   );

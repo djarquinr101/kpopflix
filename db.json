@@ -1,4 +1,5 @@
-[
+{
+    "posts":[
     {
     "name": "BTS",
     "info": "BTS, also known as Bangtan Sonyeondan, is a seven-member boy group known for their meaningful lyrics and powerful performances.",
@@ -322,3 +323,4 @@
     "type": "Duo"
     }
     ]
+}
