@@ -1,8 +1,11 @@
 import styled from "styled-components";
-import { Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-
-
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: white;
+`
 
 const StyledContainer = styled.div`
   display: flex;
@@ -30,7 +33,7 @@ const StyledImg = styled(Card.Img)`
     margin: 10px;
 `
 
-const ArtistGrid = ({artists, filterNav}) => { 
+const ArtistGrid = ({artists, filterNav, getProfile}) => { 
     let filterArtist = []
     if (filterNav != '') {
         filterArtist = artists.filter(artist => artist.type == filterNav)
@@ -46,6 +49,7 @@ const ArtistGrid = ({artists, filterNav}) => {
                  <Card.Body>
                   <Card.Title>{artist.name}</Card.Title>
                   <Card.Text>{artist.type}</Card.Text>
+                  <Button variant="dark"><StyledLink to={`/${artist.id}`}>Listen Now</StyledLink></Button>
                  </Card.Body>
              </StyledCard>
               ))} 

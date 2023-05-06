@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./Pages/Home.js";
+import Profile from "./Pages/Profile.js";
 import axios from 'axios';
 
 
@@ -10,6 +11,7 @@ import axios from 'axios';
 function App() {
  const [info, SetInfo] = useState([])
  const [bannerInfo, SetBannerInfo] = useState([]) 
+
 
   const getRandomNumber = (max) => {
   let randomNumber = Math.floor(Math.random() * max)
@@ -38,7 +40,6 @@ function App() {
     let i = 3;
     while (i > 0) { 
       let index = getRandomNumber(info.length-1)
-      console.log(index)
       newBannerInfo.push(info[index])
       i--;
     }
@@ -55,6 +56,7 @@ function App() {
       <Route path="/boys-band" element={<HomePage bannerInfo={info} filterHome={"Boy Band"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/duos" element={<HomePage bannerInfo={info} filterHome={"Duo"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/soloists" element={<HomePage bannerInfo={info} filterHome={"Soloist"} artists={info} getRandomNumber={getRandomNumber}/>}/>
+      <Route path="/:id" element={<Profile />} />
     </Routes>
     );
 }

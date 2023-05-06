@@ -2,7 +2,7 @@ import NavScroll from "../PagesSections/NavBar";
 import CarouselFade from "../PagesSections/Header";
 import ArtistGrid from "../PagesSections/ArtistGrid";
 
-const HomePage =  ({handleClick, bannerInfo, filterHome, artists, getRandomNumber}) => {
+const HomePage =  ({handleClick, bannerInfo, filterHome, artists, getRandomNumber, getProfile}) => {
     let newBannerInfo = []
     if (filterHome != '' ) {
         let filteredBannerInfo = bannerInfo.filter((banner) => banner.type == filterHome)
@@ -20,7 +20,7 @@ const HomePage =  ({handleClick, bannerInfo, filterHome, artists, getRandomNumbe
         <>
         <NavScroll/>
         <CarouselFade banners={newBannerInfo}/>
-        <ArtistGrid artists={artists} filterNav ={filterHome}/>
+        <ArtistGrid artists={artists} filterNav ={filterHome} getProfile={getProfile}/>
         </>
     )
 }
