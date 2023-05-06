@@ -3,12 +3,20 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: black;
+`
 
 function NavScroll() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">KPopFlix</Navbar.Brand>
+        <Navbar.Brand><StyledLink to="/">KPopFlix</StyledLink></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
 
@@ -17,9 +25,10 @@ function NavScroll() {
             style={{ maxHeight: '150px' }}
             navbarScroll
           >
-          <Nav.Link href=''>Grils Group</Nav.Link>
-          <Nav.Link href=''>Boys Band</Nav.Link>
-          <Nav.Link href=''>Soloists</Nav.Link>
+          <Nav.Link as ="li"><StyledLink to="/girls-group">Girls Group</StyledLink></Nav.Link>
+          <Nav.Link as ="li"><StyledLink to="/boys-band">Boys Band</StyledLink></Nav.Link>
+          <Nav.Link as ="li"><StyledLink to="/duos">Duos</StyledLink></Nav.Link>
+          <Nav.Link as ="li"><StyledLink to="/soloists">Soloist</StyledLink></Nav.Link>
           </Nav>
 
           <Form className="d-flex">

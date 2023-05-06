@@ -5,77 +5,88 @@
     "info": "BTS, also known as Bangtan Sonyeondan, is a seven-member boy group known for their meaningful lyrics and powerful performances.",
     "profile": "https://i.scdn.co/image/ab676161000051745704a64f34fe29ff73ab56bb",
     "banner": "https://reaction.life/wp-content/uploads/elementor/thumbs/shutterstock_1309804855-1-pqllc35o1l64tbhh64zfgirh5bbl4c5bjbg007kyhk.jpg",
-    "type": "Boy Band"
+    "type": "Boy Band",
+    "id":"PL1s89zMwwA_0KHFlD_PL5qVDptDaaC9Yh"
     },
     {
     "name": "Blackpink",
     "info": "BLACKPINK is a four-member girl group known for their fierce image and catchy songs.",
     "profile": "https://i.scdn.co/image/ab67616100005174c9690bc711d04b3d4fd4b87c",
     "banner": "https://images.wallpapersden.com/image/download/blackpink-love-2021_bGxrbGqUmZqaraWkpJRnZWltrWZmamc.jpg",
-    "type": "Girl Group"
+    "type": "Girl Group",
+    "id":"PLNF8K9Ddz0kKfujG6blfAxngYh_C66C_q"
     },
     {
     "name": "TWICE",
     "info": "TWICE is a nine-member girl group known for their bubbly and cheerful image and catchy dance tracks.",
     "profile": "https://i.scdn.co/image/ab676161000051748944c8aec8db82f35980b191",
     "banner": "https://pbs.twimg.com/media/C5EzSmnVcAAPsiH.jpg:large",
-    "type": "Girl Group"
+    "type": "Girl Group",
+    "id":"PLyo6W3g1j4QYsN3tqICUm-1T8YPkPHiwy"
     },
     {
     "name": "EXO",
     "info": "EXO is a nine-member boy group known for their impressive vocals and impressive choreography.",
     "profile": "https://i.scdn.co/image/ab67616100005174465b1b62cf6eca8f851aaabc",
     "banner": "https://wallpapercave.com/wp/wp4709975.jpg",
-    "type": "Boy Band"
+    "type": "Boy Band",
+    "id": "PL47C9B2BCC093E161"
     },
     {
     "name": "Red Velvet",
     "info": "Red Velvet is a five-member girl group known for their versatile music style and concept. They are known for incorporating different genres in their music.",
     "profile": "https://i.scdn.co/image/ab676161000051745bf330a57b9dcffd8f7b2c14",
     "banner": "https://0.soompi.io/wp-content/uploads/2019/12/20190623/Red-Velvet-2.jpeg",
-    "type": "Girl Group"
+    "type": "Girl Group",
+    "id": "PLf6o667sbSzx88vIYLVhs-UyjBNJG0J7I"
     },
     {
     "name": "NCT 127",
     "info": "NCT is a group that consists of multiple sub-units and members from all over the world. They are known for their experimental music and unique concepts.",
     "profile": "https://i.scdn.co/image/ab676161000051747d874b307cb092e68db73207",
     "banner": "https://www.hellokpop.com/wp-content/uploads/2020/01/IMG_20200127_001109.jpg",
-    "type": "Boy Band"
+    "type": "Boy Band",
+    "id": "PLj9DYMWYk-X6tq-kCP8CBtjVluRPOvN5L"
     },
     {
     "name": "Seventeen",
     "info": "Seventeen is a thirteen-member boy group known for their synchronized choreography and self-produced music.",
     "profile": "https://i.scdn.co/image/ab6761610000517495f5142b421466cf22028f6f",
     "banner": "https://s1.ticketm.net/dam/a/123/2ffb250b-4696-4abd-a2c2-f61b0c600123_1238781_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "type": "Boy Band"
+    "type": "Boy Band",
+    "id": "PLk_UmMfvZDx2wu3ynTngcZMzgH4l2SgLP"
     },
     {
     "name": "GOT7",
     "info": "GOT7 is a seven-member boy group known for their energetic performances and catchy songs.",
     "profile": "https://i.scdn.co/image/ab67616100005174d90aa536055fe9806b3960e6",
     "banner": "https://th.bing.com/th/id/R.94fe20eb661c174eb4f34e10c99cbe54?rik=DfILiNzGZiASRw&pid=ImgRaw&r=0",
-    "type": "Boy Band"
+    "type": "Boy Band",
+    "id": "PLUkP5yep7LOAvY7HWDcqOhg3If56fCl8v"
     },
     {
     "name": "Mamamoo",
     "info": "Mamamoo is a four-member girl group known for their powerful vocals and retro-inspired music.",
     "profile": "https://i.scdn.co/image/ab67616100005174e12972169702affd7a4c48ec",
     "banner": "https://0.soompi.io/wp-content/uploads/2019/11/07071619/mamamoo3.jpeg",
-    "type": "Girl Group"
+    "type": "Girl Group",
+    "id": "PLTLqUtttZgFFipYI2zqrKa803yzezZ7PL"
     },
     {
     "name": "ATEEZ",
     "info": "ATEEZ is an eight-member boy group known for their intense performances and unique storytelling in their music videos.",
     "profile": "https://i.scdn.co/image/ab676161000051745d87e2a10ba3b2f8bb2c5270",
     "banner": "https://www.allkpop.com/upload/2021/08/content/221152/web_data/allkpop_1629647978_ateez.jpg",
-    "type": "Boy Band"
+    "type": "Boy Band",
+    "id": "PL8W8UATNCEysRhJK_H-kIRVZIWi5gJBzz"
     },
     {
     "name": "TXT",
     "info": "TXT, also known as Tomorrow X Together, is a five-member boy group known for their youthful and dreamy image and music.",
     "profile": "https://i.scdn.co/image/ab6761610000517463329d77582c519154674fd7",
     "banner": "https://cdn.filestackcontent.com/crop=d:[0,460,4096,2048]/pjpg=q:90/compress/Ztdo8BWSDiGuDcJ6us5w",
-    "type": "Boy Band"
+    "type": "Boy Band",
+    "id": "PLQwaMZCS6vkjitLmlboZrY8Y4R_IODEu3"
     },
     {
     "name": "ITZY",
