@@ -1,5 +1,14 @@
 import { Carousel, Button, Image } from 'react-bootstrap';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-decoration: none;
+  }
+`
 
 const StyledContainer = styled.div`
   display: flex;
@@ -40,7 +49,7 @@ function CarouselFade({banners}) {
       
         <Carousel.Caption>
           <h1>{banner.name}</h1>
-          <Button variant={"light"}>Listen Now</Button>
+          <Button variant={"light"}><StyledLink to={`/${banner.id}`}>Listen Now</StyledLink></Button>
         </Carousel.Caption>
       </StyledItem>
      ))}

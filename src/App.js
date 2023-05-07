@@ -54,7 +54,6 @@ function App() {
       <Route path="/" element={<HomePage bannerInfo={bannerInfo} filterHome={""} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/girls-group" element={<HomePage bannerInfo={info} filterHome={"Girl Group"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/boys-band" element={<HomePage bannerInfo={info} filterHome={"Boy Band"} artists={info} getRandomNumber={getRandomNumber}/>}/>
-      <Route path="/duos" element={<HomePage bannerInfo={info} filterHome={"Duo"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/soloists" element={<HomePage bannerInfo={info} filterHome={"Soloist"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/:id" element={<Profile />} />
     </Routes>

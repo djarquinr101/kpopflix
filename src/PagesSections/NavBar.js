@@ -27,7 +27,6 @@ function NavScroll() {
           >
           <Nav.Link as ="li"><StyledLink to="/girls-group">Girls Group</StyledLink></Nav.Link>
           <Nav.Link as ="li"><StyledLink to="/boys-band">Boys Band</StyledLink></Nav.Link>
-          <Nav.Link as ="li"><StyledLink to="/duos">Duos</StyledLink></Nav.Link>
           <Nav.Link as ="li"><StyledLink to="/soloists">Soloist</StyledLink></Nav.Link>
           </Nav>
 

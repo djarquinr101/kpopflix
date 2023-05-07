@@ -5,8 +5,8 @@ function ImgOverlay({banner,name,info}) {
     <Card className="bg-dark text-white">
       <Card.Img src={banner} alt={name} />
       <Card.ImgOverlay>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>
+        <Card.Title as ={'h1'}>{name}</Card.Title>
+        <Card.Text as ={'h3'}>
          {info}
         </Card.Text>
       </Card.ImgOverlay>
