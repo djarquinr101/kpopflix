@@ -5,12 +5,17 @@ import { Link } from "react-router-dom";
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: white;
+  
+  &:hover{
+    text-decoration: none;
+    color: white;
+   }
 `
 
 const StyledContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: black;
   gap: 1rem;
@@ -21,8 +26,8 @@ const StyledCard = styled(Card)`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 250px;
+    width: 200px;
+    height: 300px;
 
 `
 
