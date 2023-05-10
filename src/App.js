@@ -1,17 +1,18 @@
 import { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import HomePage from "./Pages/Home.js";
 import Profile from "./Pages/Profile.js";
+import NavScroll from "./PagesSections/NavBar.js";
+import ScrollToTop from "./PagesSections/ScrollToTop.js";
 import axios from 'axios';
-
 
 
 
 function App() {
  const [info, SetInfo] = useState([])
- const [bannerInfo, SetBannerInfo] = useState([]) 
-
+ const [bannerInfo, SetBannerInfo] = useState([])
+ 
 
   const getRandomNumber = (max) => {
   let randomNumber = Math.floor(Math.random() * max)
@@ -47,16 +48,21 @@ function App() {
   }
   }
   getBannerInfo()
+  const bands = info.map((band) => band.name)
  },[info])
  
   return (
+    <BrowserRouter>
+    <ScrollToTop/>
+    <NavScroll />
     <Routes>
-      <Route path="/" element={<HomePage bannerInfo={bannerInfo} filterHome={""} artists={info} getRandomNumber={getRandomNumber}/>}/>
+      <Route path="/" element={<HomePage bannerInfo={bannerInfo} filterHome={""} artists={info} getRandomNumber={getRandomNumber} />}/>
       <Route path="/girls-group" element={<HomePage bannerInfo={info} filterHome={"Girl Group"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/boys-band" element={<HomePage bannerInfo={info} filterHome={"Boy Band"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/soloists" element={<HomePage bannerInfo={info} filterHome={"Soloist"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/:id" element={<Profile />} />
     </Routes>
+    </BrowserRouter>
     );
 }
 

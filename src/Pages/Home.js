@@ -1,4 +1,3 @@
-import NavScroll from "../PagesSections/NavBar";
 import CarouselFade from "../PagesSections/Header";
 import ArtistGrid from "../PagesSections/ArtistGrid";
 
@@ -18,9 +17,8 @@ const HomePage =  ({handleClick, bannerInfo, filterHome, artists, getRandomNumbe
 
     return (
         <>
-        <NavScroll/>
         <CarouselFade banners={newBannerInfo}/>
-        <ArtistGrid artists={artists} filterNav ={filterHome} getProfile={getProfile}/>
+        <ArtistGrid artists={artists} filterNav ={filterHome} />
         </>
     )
 }

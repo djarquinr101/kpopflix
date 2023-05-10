@@ -33,7 +33,7 @@ const StyledImg = styled(Card.Img)`
     margin: 10px;
 `
 
-const ArtistGrid = ({artists, filterNav, getProfile}) => { 
+const ArtistGrid = ({artists, filterNav}) => { 
     let filterArtist = []
     if (filterNav != '') {
         filterArtist = artists.filter(artist => artist.type == filterNav)
