@@ -5,6 +5,7 @@ import HomePage from "./Pages/Home.js";
 import Profile from "./Pages/Profile.js";
 import NavScroll from "./PagesSections/NavBar.js";
 import ScrollToTop from "./PagesSections/ScrollToTop.js";
+import Footer from "./PagesSections/Footer.js";
 import axios from 'axios';
 
 
@@ -62,6 +63,7 @@ function App() {
       <Route path="/soloists" element={<HomePage bannerInfo={info} filterHome={"Soloist"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/:id" element={<Profile />} />
     </Routes>
+    <Footer />
     </BrowserRouter>
     );
 }
