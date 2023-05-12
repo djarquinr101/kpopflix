@@ -7,6 +7,7 @@ import NavScroll from "./PagesSections/NavBar.js";
 import ScrollToTop from "./PagesSections/ScrollToTop.js";
 import Footer from "./PagesSections/Footer.js";
 import axios from 'axios';
+import NotFound from "./Pages/NotFound.js";
 
 
 
@@ -62,6 +63,7 @@ function App() {
       <Route path="/boys-band" element={<HomePage bannerInfo={info} filterHome={"Boy Band"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/soloists" element={<HomePage bannerInfo={info} filterHome={"Soloist"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/:id" element={<Profile />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
     <Footer />
     </BrowserRouter>
