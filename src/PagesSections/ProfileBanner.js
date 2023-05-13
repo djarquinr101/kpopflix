@@ -1,4 +1,4 @@
-import {Card, Image } from 'react-bootstrap';
+import {Card } from 'react-bootstrap';
 import styled, {css} from 'styled-components';
 
 const StyledContainer = styled(Card)`
@@ -8,12 +8,6 @@ display:none;
         display:block;
         }
     `} 
-`
-
-const StyledImg = styled(Image)`
-margin: auto;
- width: 80%;
- max-height: 900px;
 `
 
 const StyledCard = styled(Card)`

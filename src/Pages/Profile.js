@@ -4,16 +4,6 @@ import InfoBio from "../PagesSections/BioInfo";
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
-import styled from "styled-components";
-
-
-const StyledImg = styled.img`
-    border-radius: 100px;
-    max-width: 100px;
-    max-height: 100px;
-    margin: 10px;
-    `
-
 
 
 const Profile = () => {
