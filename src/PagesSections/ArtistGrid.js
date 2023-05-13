@@ -54,7 +54,7 @@ const ArtistGrid = ({artists, filterNav}) => {
                  <Card.Body>
                   <Card.Title>{artist.name}</Card.Title>
                   <Card.Text>{artist.type}</Card.Text>
-                  <Button variant="dark"><StyledLink to={`/${artist.id}`}>Listen Now</StyledLink></Button>
+                  <Button variant="dark"><StyledLink to={`/artist/${artist.id}`}>Listen Now</StyledLink></Button>
                  </Card.Body>
              </StyledCard>
               ))} 

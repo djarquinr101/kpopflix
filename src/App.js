@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter, Switch } from "react-router-dom";
 import HomePage from "./Pages/Home.js";
 import Profile from "./Pages/Profile.js";
 import NavScroll from "./PagesSections/NavBar.js";
@@ -62,8 +62,8 @@ function App() {
       <Route path="/girls-group" element={<HomePage bannerInfo={info} filterHome={"Girl Group"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/boys-band" element={<HomePage bannerInfo={info} filterHome={"Boy Band"} artists={info} getRandomNumber={getRandomNumber}/>}/>
       <Route path="/soloists" element={<HomePage bannerInfo={info} filterHome={"Soloist"} artists={info} getRandomNumber={getRandomNumber}/>}/>
-      <Route path="/:id" element={<Profile />} />
-      <Route path="*" element={<NotFound />} />
+      <Route path="/artist/:id" element={<Profile />} />
+      <Route path="/*" element={<NotFound/>} />
     </Routes>
     <Footer />
     </BrowserRouter>

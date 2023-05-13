@@ -5,6 +5,8 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import styled from "styled-components";
+import NotFound from "./NotFound";
+import { Navigate } from "react-router-dom";
 
 
 const StyledImg = styled.img`
@@ -26,6 +28,8 @@ const Profile = () => {
             setProfileData(response.data)
         } catch (error){
             console.log(error)
+           return (<Navigate to="*"/>)
+
         }
       }
       getProfile(id)
