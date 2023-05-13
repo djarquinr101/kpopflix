@@ -2,11 +2,9 @@ import ImgOverlay from "../PagesSections/ProfileBanner";
 import VideoPlayer from "../PagesSections/VideoPlayer";
 import InfoBio from "../PagesSections/BioInfo";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import styled from "styled-components";
-import NotFound from "./NotFound";
-import { Navigate } from "react-router-dom";
 
 
 const StyledImg = styled.img`
@@ -14,11 +12,20 @@ const StyledImg = styled.img`
     max-width: 100px;
     max-height: 100px;
     margin: 10px;
-`
+    `
+
+
 
 const Profile = () => {
     const [profileData, setProfileData] = useState([])
     const {id} = useParams()   
+    const nagivate = useNavigate()
+    
+    const errorHandler = (error) => {
+        if (error.response && error.response.status ===404) {
+         nagivate("/Not-Found")    
+    } 
+    }
    
 
    useEffect(()=> {  
@@ -28,8 +35,7 @@ const Profile = () => {
             setProfileData(response.data)
         } catch (error){
             console.log(error)
-           return (<Navigate to="*"/>)
-
+            errorHandler(error)
         }
       }
       getProfile(id)
