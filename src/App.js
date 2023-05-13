@@ -21,7 +21,7 @@ function App() {
   return randomNumber
   } 
 
-
+ 
 
  useEffect (()=>{
   const fetchInfo = async () => {
@@ -56,7 +56,7 @@ function App() {
   return (
     <BrowserRouter>
     <ScrollToTop/>
-    <NavScroll />
+    <NavScroll info = {info}/>
     <Routes>
       <Route path="/" element={<HomePage bannerInfo={bannerInfo} filterHome={""} artists={info} getRandomNumber={getRandomNumber} />}/>
       <Route path="/girls-group" element={<HomePage bannerInfo={info} filterHome={"Girl Group"} artists={info} getRandomNumber={getRandomNumber}/>}/>
