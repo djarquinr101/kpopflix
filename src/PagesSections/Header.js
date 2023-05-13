@@ -49,7 +49,7 @@ function CarouselFade({banners}) {
       
         <Carousel.Caption>
           <h1>{banner.name}</h1>
-          <Button variant={"light"}><StyledLink to={`/${banner.id}`}>Listen Now</StyledLink></Button>
+          <Button variant={"light"}><StyledLink to={`/artist/${banner.id}`}>Listen Now</StyledLink></Button>
         </Carousel.Caption>
       </StyledItem>
      ))}
