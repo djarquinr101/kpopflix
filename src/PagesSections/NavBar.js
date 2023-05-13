@@ -55,7 +55,6 @@ function NavScroll({info}) {
             e.preventDefault()
             if (result.length >= 1){
               let firstBand = result[0].id
-              console.log(firstBand)
               navigation(`artist/${firstBand}`)
               handleLinkClick()
             } else {

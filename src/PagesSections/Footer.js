@@ -2,7 +2,6 @@ import { Card } from "react-bootstrap"
 import styled from "styled-components";
 
 const StyledFooter = styled(Card)`
-position: fixed;
 bottom: 0;
 width: 100%;
 `
