@@ -57,7 +57,7 @@ function NavScroll({info}) {
               navigation(`artist/${firstBand}`)
               handleLinkClick()
             } else {
-              return alert("please type anything to seach a band")
+              return alert("We couldn't find the group/artist that you are looking for")
               handleLinkClick()
             } 
             }}>
