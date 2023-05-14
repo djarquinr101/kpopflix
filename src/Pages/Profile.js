@@ -17,8 +17,6 @@ const Profile = () => {
     } 
     }
    
-
-   useEffect(()=> {  
     const getProfile = async (id) => {
         try {
             const response = await axios.get(`https://kpop-server.vercel.app/posts/${id}`)
@@ -28,8 +26,15 @@ const Profile = () => {
             errorHandler(error)
         }
       }
+
+   useEffect(()=> {  
       getProfile(id)
     },[])
+
+    useEffect(()=> {  
+        getProfile(id)
+      },[id])
+      
 
     return (
         <>

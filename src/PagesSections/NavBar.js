@@ -29,7 +29,6 @@ function NavScroll({info}) {
 
   useEffect(()=> {
    setResult(info.filter(band=> band.name.toLowerCase().includes(value.toLowerCase())))
-   console.log(result)
   }, [value])
 
 
